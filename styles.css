@@ -75,10 +75,8 @@ body{
     opacity: 1;
     height: 100%;
     width: 30%;
-    clip-path: polygon(0 0, 100% 0, 25% 100%, 0% 100%);
     shape-outside: polygon(0 0, 100% 0, 25% 100%, 0% 100%);
     float: left;
-    background: purple;
   }
   .article_info {
     background: rgba(209, 213, 222,0.7);
@@ -102,22 +100,31 @@ body{
     font-style: normal;
     word-spacing: 1vmin;
   }
-  .article_h3{
-    margin-top: 20%;
-  }
   .article_h1{
     font-size: 4vmin;
     text-align: center;
     margin: 10% 0;
   }
   .article_link{
-    font-size: 1.5vmin;
+    font-size: 2vmin;
     display: block;
     box-sizing: border-box;
     padding: 10px;
     width: 100%;
     text-align: right;
     text-decoration: none;
+  }
+  .article_views{
+    font-size: 2vmin;
+    line-height: 2vmin;
+    transform: translate(50%,1000%)
+  }
+  .article_views span{
+    display: inline-block;
+    height: 2vmin;
+    width: 2vmin;
+    background: url('./img/view.svg');
+    background-size: cover;
   }
   /* Slider Styling */
   .slider-wrapper {
