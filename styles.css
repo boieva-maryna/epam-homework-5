@@ -78,6 +78,7 @@ body{
     clip-path: polygon(0 0, 100% 0, 25% 100%, 0% 100%);
     shape-outside: polygon(0 0, 100% 0, 25% 100%, 0% 100%);
     float: left;
+    background: purple;
   }
   .article_info {
     background: rgba(209, 213, 222,0.7);
@@ -97,16 +98,20 @@ body{
   }
   .article_h3,.article_h1 {
     font-weight: bold;
-    font-size: 2.5vmax;
+    font-size: 3vmin;
     font-style: normal;
+    word-spacing: 1vmin;
+  }
+  .article_h3{
+    margin-top: 20%;
   }
   .article_h1{
-    font-size: 4vmax;
+    font-size: 4vmin;
     text-align: center;
     margin: 10% 0;
   }
   .article_link{
-    font-size: 1.5vmax;
+    font-size: 1.5vmin;
     display: block;
     box-sizing: border-box;
     padding: 10px;
